@@ -1,9 +1,6 @@
-import { useRef } from "react"
+import { FC, useRef } from "react"
 
-const AddModal = ( {set} ) => {
-
-    console.log(set);
-    
+const AddModal:FC<{set:()=>void}> = ( {set} ) => {
 
     const prikaz = useRef()
     const otchet = useRef()

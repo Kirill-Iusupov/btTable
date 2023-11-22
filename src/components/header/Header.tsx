@@ -4,7 +4,7 @@ const Header = () => {
 
   return (
     <Wrapper>
-        
+        header
     </Wrapper>
   )
 
